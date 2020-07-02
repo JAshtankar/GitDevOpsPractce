@@ -6,6 +6,7 @@ public class test2 {
 		try {
 		assert false;
 		System.out.println("t");
+			System.out.println("tt");
 		}catch(Exception e) {
 			System.out.println("c");
 			throw new Exception();
